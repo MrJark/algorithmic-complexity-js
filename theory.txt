@@ -1,0 +1,9 @@
+
+Los algoritmos trabajan con 2 tipos de recursos:
+- Tiempo -> el tiempo que tarda en llevarlo a cabo
+- Espacio -> los bytes que ocupa
+
+Complejidad espacial:
+Cuando trabajas con algoritmos grandes, tendrás que almacenar información en otras partes
+Complejidad temporal:
+El tiempo que tarda en correr el algoritmo. Puede ser lineal, exponencial o constante
