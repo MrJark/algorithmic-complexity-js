@@ -12,3 +12,18 @@ Big-O
 
 Las clases de Big-O son las representaciones simbólicas del tipo de crecimiento del algoritmo en el peor de los casos. El tipo de crecimiento es la función que se aproxima a los resultados de los valores de tiempo o espacio.
 Con esta notación buscamos descubrir una función (constante, lineal, polinomial, logarítmica y exponencial) que sea mayor o igual que la complejidad de un algoritmo, es decir, el peor caso que puede ejecutarse el programa.
+
+    Big-O para complejidad espacial
+    
+    Variables: tienen una notación constante O(1) debido a que guarda un espacio de memoria.
+    Condicionales: tienen una notación constante O(1) debido a que procesa la condición en un espacio de memoria.
+    Ciclos repetitivos: tienen una notación lineal O(1) debido a que procesa el bucle en un espacio de memoria.
+    Arrays: tienen una notación lineal O(n) porque guarda en memoria n elementos.
+    Matrices o array de arrays: tienen una notación cuadrática O(n^2) porque por cada elemento del array guarda otro array de n elementos.
+
+    Big-O para complejidad temporal
+
+    Variables: tienen una notación constante O(1) debido a que al crear una variable se demora un tiempo constante.
+    Condicionales: tienen una notación constante O(1) debido a que procesa la condición en un tiempo constante.
+    Ciclos repetitivos: tienen una notación lineal O(n) debido a que en el peor de los casos, estos ejecutan n veces una instrucción.
+    Ciclos repetitivos anidados: tienen una notación cuadrática O(n^2) debido a que cada ciclo interno se ejecuta n veces el ciclo externo.
