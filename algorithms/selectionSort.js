@@ -1,10 +1,10 @@
 /**
  * Complejidad Temporal -> O( 1 + n + ... +1 ) = O (9 + n * n) = O(n^2)
- * Complejidad Espacial -> O(  )
- * Espacio Auxiliar -> O(  )
+ * Complejidad Espacial -> O( n + 5 ) = O(n)
+ * Espacio Auxiliar -> O( 5 ) = O(1)
  */
-function selectionSort(arreglo) {
-    let longitud = arreglo.length; //O(1)
+function selectionSort(arreglo) { //| O(n)
+    let longitud = arreglo.length; //O(1) 
   
     for (let i = 0; i < longitud; i++) { //O(n)
       let minimo = i;// O(1)
