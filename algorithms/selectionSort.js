@@ -1,5 +1,5 @@
 /**
- * Complejidad Temporal -> O( 1 + n + ... +1 ) = O (9 + n * n) = O(n^2)
+ * Complejidad Temporal -> O( 1 + n + ... +1 ) = O (9 + n * n) = O(n^2) se multiplican las n porque es un for dentro de otro for
  * Complejidad Espacial -> O( n + 5 ) = O(n)
  * Espacio Auxiliar -> O( 5 ) = O(1)
  */
