@@ -7,3 +7,8 @@ Complejidad espacial:
 Cuando trabajas con algoritmos grandes, tendrás que almacenar información en otras partes
 Complejidad temporal:
 El tiempo que tarda en correr el algoritmo. Puede ser lineal, exponencial o constante
+
+Big-O
+
+Las clases de Big-O son las representaciones simbólicas del tipo de crecimiento del algoritmo en el peor de los casos. El tipo de crecimiento es la función que se aproxima a los resultados de los valores de tiempo o espacio.
+Con esta notación buscamos descubrir una función (constante, lineal, polinomial, logarítmica y exponencial) que sea mayor o igual que la complejidad de un algoritmo, es decir, el peor caso que puede ejecutarse el programa.
